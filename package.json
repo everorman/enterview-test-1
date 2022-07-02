@@ -1,0 +1,33 @@
+{
+  "name": "enterview-test-1",
+  "version": "1.0.0",
+  "description": "Prueba tecnica para entrevista loboral",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "serve": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everorman/enterview-test-1.git"
+  },
+  "author": "Evert Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everorman/enterview-test-1/issues"
+  },
+  "homepage": "https://github.com/everorman/enterview-test-1#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "cz": "^1.8.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
