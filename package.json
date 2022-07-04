@@ -1,5 +1,5 @@
 {
-  "name": "enterview-test-1",
+  "name": "interview-test-1",
   "version": "1.0.0",
   "description": "Prueba tecnica para entrevista loboral",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/everorman/enterview-test-1.git"
+    "url": "git+https://github.com/everorman/interview-test-1.git"
   },
   "author": "Evert Ortiz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/everorman/enterview-test-1/issues"
+    "url": "https://github.com/everorman/interview-test-1/issues"
   },
-  "homepage": "https://github.com/everorman/enterview-test-1#readme",
+  "homepage": "https://github.com/everorman/interview-test-1#readme",
   "dependencies": {
     "express": "^4.18.1",
     "mysql": "^2.18.1"
