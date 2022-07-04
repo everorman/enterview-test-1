@@ -13,12 +13,16 @@ class UserService {
     return new Promise((resolve, reject) => {
       pool.getConnection( (err, connection)=>{
         if (err) {
+          console.log(err);
           throw boom.forbidden('Error with pool connection.');
         }else{
-           connection.query(`select fullname from user where user='${user}' and password='${password}'`, 
+          //  connection.query(`select fullname from user where user='${user}' and password='${password}'`, 
+          console.log('Realizando consulta....')
+           connection.query(`select fullname from Users`, 
            (error, record, fields)=>{
             if(!error) return resolve(record[0]);
-            connection.release();
+            console.log(error)
+            return reject(error)
           })
         }
       })
